@@ -1,7 +1,7 @@
 
 
 function Home(){
-    return <div className="flex items-center">
+    return <div className="bg-blue">
         <h1 className="text-3xl text-blue-700">Hello</h1>
     </div>
 }
