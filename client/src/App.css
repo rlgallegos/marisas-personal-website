@@ -1,7 +1,17 @@
-
+.point {
+    cursor: pointer;
+}
 
 .App {
   text-align: center;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
 }
 
 .App-logo {
@@ -15,26 +25,22 @@
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Import the Lovelace font using @font-face */
+@font-face {
+    font-family: 'Lovelace';
+    src: url('./fonts/lovelace.otf') format('opentype');
+    /* Add more font formats if necessary */
   }
-  to {
-    transform: rotate(360deg);
+@font-face {
+    font-family: 'BrownSugar';
+    src: url('./fonts/brown-sugar.otf') format('opentype');
+    /* Add more font formats if necessary */
   }
-} */
+  
+  /* Apply the Lovelace font to the desired elements using the font-Lovelace class */
+  .lovelace {
+    font-family: 'Lovelace';
+  }
+  .brown-sugar {
+    font-family: 'BrownSugar';
+  }
